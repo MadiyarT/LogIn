@@ -13,6 +13,8 @@
 		26D981EE1EAB1AA900D0FA49 /* LogIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26D981EC1EAB1AA900D0FA49 /* LogIn.xcdatamodeld */; };
 		26D981F01EAB1AA900D0FA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D981EF1EAB1AA900D0FA49 /* Assets.xcassets */; };
 		26D981F31EAB1AA900D0FA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D981F11EAB1AA900D0FA49 /* LaunchScreen.storyboard */; };
+		26D981FB1EADE6F000D0FA49 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D981FA1EADE6F000D0FA49 /* RegisterPageViewController.swift */; };
+		26D982201EB0B79000D0FA49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D9821F1EB0B79000D0FA49 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		26D981EF1EAB1AA900D0FA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26D981F21EAB1AA900D0FA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26D981F41EAB1AA900D0FA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D981FA1EADE6F000D0FA49 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		26D9821F1EB0B79000D0FA49 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				26D981E51EAB1AA900D0FA49 /* AppDelegate.swift */,
 				26D981E71EAB1AA900D0FA49 /* ViewController.swift */,
+				26D981FA1EADE6F000D0FA49 /* RegisterPageViewController.swift */,
 				26D981E91EAB1AA900D0FA49 /* Main.storyboard */,
+				26D9821F1EB0B79000D0FA49 /* LoginViewController.swift */,
 				26D981EF1EAB1AA900D0FA49 /* Assets.xcassets */,
 				26D981F11EAB1AA900D0FA49 /* LaunchScreen.storyboard */,
 				26D981F41EAB1AA900D0FA49 /* Info.plist */,
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D981FB1EADE6F000D0FA49 /* RegisterPageViewController.swift in Sources */,
 				26D981EE1EAB1AA900D0FA49 /* LogIn.xcdatamodeld in Sources */,
 				26D981E81EAB1AA900D0FA49 /* ViewController.swift in Sources */,
+				26D982201EB0B79000D0FA49 /* LoginViewController.swift in Sources */,
 				26D981E61EAB1AA900D0FA49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,9 +274,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LogIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kz.MadiyarInc.LogIn;
+				PRODUCT_BUNDLE_IDENTIFIER = LogIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -278,9 +287,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LogIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kz.MadiyarInc.LogIn;
+				PRODUCT_BUNDLE_IDENTIFIER = LogIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -305,6 +315,7 @@
 				26D981F91EAB1AA900D0FA49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
